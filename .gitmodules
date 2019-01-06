@@ -1,3 +1,3 @@
 [submodule "dpdk"]
-	path = dpdk
+	path = cachedirector
 	url = https://github.com/aliireza/dpdk
