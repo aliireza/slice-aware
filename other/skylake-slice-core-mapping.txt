@@ -1,0 +1,10 @@
+cores:	Best:	Other-Slices:
+C0:		S0		S2,S6
+C1:		S4		S1
+C2:		S8		S11
+C3:		S12		S3
+C4:		S10		S7,S9
+C5:		S14		S16
+C6:		S13		S5
+C7:		S15		S17
+		

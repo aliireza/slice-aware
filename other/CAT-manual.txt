@@ -1,0 +1,9 @@
+Set rule: give 2 ways to first & second COS on socket 0 and give one way to rest
+
+sudo pqos -e "llc@0:0=0x0003;llc@0:1=0x000C;llc@0:2=0x0010;llc@0:3=0x0020;llc@0:4=0x0040;llc@0:5=0x0080;llc@0:6=0x0100;llc@0:7=0x0200;"
+
+Allocate: Use COSi for core-i
+
+sudo pqos -a "llc:0=0;llc:1=1;llc:2=2;llc:3=3;llc:4=4;llc:5=5;llc:6=6;llc:7=7"
+
+More information can be find: https://github.com/intel/intel-cmt-cat
