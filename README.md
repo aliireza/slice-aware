@@ -2,12 +2,18 @@
 
 Applications can utilize our memory management scheme to improve their performance by allocating memory that is mapped to the most appropriate LLC slice(s), i.e., that have lower access latency. For more information, check out our [paper][cachedirector-eurosys-paper].
 
+## Download
+
+```
+git clone --recursive https://github.com/aliireza/slice-aware.git
+```
+
 ## Repository Organization
 
 The description of different folders are as follows: 
 
 - `./apps/` Contains applications for measuring access time to different LLC slices + Finding the mapping between different physical addresses & LLC slices.
--  `./cachedirector/' Implementation of CacheDirector on DPDK. More info can be found in [here][cachedirector-readme].
+-  `./cachedirector/` Implementation of CacheDirector on DPDK. More info can be found in [here][cachedirector-readme].
 - `./lib/` Contains libraries used to enable slice-aware memory management.
 - `./others/` Some useful information regarding the CAT and the mapping of core<->slice(s) for Intel(R) Xeon(R) Gold 6134 (Skylake).
 - `./results/` Contains some of the results used in our [paper][cachedirector-eurosys-paper].
@@ -22,7 +28,7 @@ The description of different folders are as follows:
 
 ## Citing our paper
 
-If you use slice-aware memory management in any context, please cite our [paper][cachedirector-eurosys-paper]:
+If you use [CacheDirector][cachedirector-repo] or slice-aware memory management in any context, please cite our [paper][cachedirector-eurosys-paper]:
 
 ```
 @inproceedings{farshin-slice-aware,
@@ -46,3 +52,4 @@ If you have any questions regarding our code or paper, you can contact Amir Rooz
 
 [cachedirector-eurosys-paper]: http://doi.org/10.1145/3302424.3303977
 [cachedirector-readme]: https://github.com/aliireza/dpdk/blob/cachedirector/README
+[cachedirector-repo]: https://github.com/aliireza/dpdk
