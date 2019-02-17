@@ -50,6 +50,6 @@ If you use [CacheDirector][cachedirector-repo] or slice-aware memory management 
 
 If you have any questions regarding our code or the paper, you can contact Amir Roozbeh (amirrsk at kth.se) and/or Alireza Farshin (farshin at kth.se).
 
-[cachedirector-eurosys-paper]: http://doi.org/10.1145/3302424.3303977
+[cachedirector-eurosys-paper]: https://people.kth.se/~farshin/documents/slice-aware-eurosys19.pdf
 [cachedirector-readme]: https://github.com/aliireza/CacheDirector/blob/cachedirector/README.md
 [cachedirector-repo]: https://github.com/aliireza/CacheDirector
